@@ -1,0 +1,24 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.jumbotron {
+    background-color: rgb(56, 54, 54) ;
+    color: white;
+}
+
+.nav {
+    width: 100%;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-city {
+    display: flex;
+    align-items: flex-start;
+}

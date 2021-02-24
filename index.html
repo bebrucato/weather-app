@@ -6,13 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Weather Application</title>
+    <title>Weather Dashboard</title>
 </head>
 <body>
- 
+    <div class="jumbotron container-fluid mt-2 text-center p-2">
+        <h1> <strong>Weather Dashboard</strong></h1>
+    </div>
+    <div class="container">
+        <div class="search pt-3" >
+          <div class="col-2 mb-3">
+            <label for="textInput" class="form-label">Search For A City</label>
+            <input type="text" id="textInput1" class="form-control" placeholder="Cities">
+          </div>
+          <div class="col-2">
+            <button type="submit" id="submitBtn" class="btn btn-primary">Search</button>
+          </div>
+
+          <div class="card mt-3" style="width: 18rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+
+        </div>
+       
+        <div class="weather-container col">
+            <section class="main-city">
+              <p>hi</p>
+            </section>
+          </div>
+        </div>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="search.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
