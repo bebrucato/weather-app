@@ -1,24 +1,26 @@
+*{
+    box-sizing: border-box;    
+}
+
 body {
     font-family: 'Lato', sans-serif;
 }
-
-
 
 .jumbotron {
     background-color: rgb(56, 54, 54) ;
     color: white;
 }
 
-.nav {
+h1{
+    font-size: 200%;
+    font-weight: 400;
+}
+
+#search-button {
     width: 100%;
 }
 
-.weather-container {
-    display: flex;
-    justify-content: center;
-}
-
-.main-city {
-    display: flex;
-    align-items: flex-start;
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
 }
