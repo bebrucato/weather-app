@@ -18,3 +18,13 @@ function find(c){
     return 1;
 }
 
+var APIKey="ba16492eb916e36730d06ac08e215281";
+
+function displayWeather(event){
+    event.preventDefault();
+    if(searchCity.val().trim()!==""){
+        city=searchCity.val().trim();
+        currentWeather(city);
+    }
+}
+console.log(displayWeather)
